@@ -1,0 +1,41 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "about": "À propos",
+    "experiences": "Expériences",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Bonjour, je suis LOGA Benjamin E.",
+    "role": "Développeur Full-Stack",
+    "cta": "Me contacter"
+  },
+  "about": {
+    "title": "À propos",
+    "skills": [
+      "Développeur Frontend",
+      "Développeur Backend",
+      "Passionné UI/UX",
+      "Conception de Bases de Données",
+      "Analyse Fonctionnelle"
+    ]
+  },
+  "experiences": {
+    "title": "Expériences"
+  },
+  "projects": {
+    "title": "Mes Projets",
+    "viewAll": "Voir tous les projets"
+  },
+  "contact": {
+    "title": "Contact",
+    "name": "Nom",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Envoyer"
+  },
+  "footer": {
+    "copyright": "Copyright © 2026 - Tous droits réservés"
+  }
+}

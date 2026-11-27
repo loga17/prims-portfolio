@@ -1,0 +1,41 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "experiences": "Experiences",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I am LOGA Benjamin E.",
+    "role": "Full-Stack Developer",
+    "cta": "Contact me"
+  },
+  "about": {
+    "title": "About",
+    "skills": [
+      "Frontend Developer",
+      "Backend Developer",
+      "UI/UX Enthusiast",
+      "Database Design",
+      "Functional Analysis"
+    ]
+  },
+  "experiences": {
+    "title": "Experiences"
+  },
+  "projects": {
+    "title": "My Projects",
+    "viewAll": "View all projects"
+  },
+  "contact": {
+    "title": "Contact",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Submit"
+  },
+  "footer": {
+    "copyright": "Copyright © 2026 - All rights reserved"
+  }
+}
