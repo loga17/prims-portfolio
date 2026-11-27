@@ -3,14 +3,12 @@ import cors from 'cors';
 import { PrismaClient } from '@prisma/client';
 import { PrismaNeon } from '@prisma/adapter-neon';
 import 'dotenv/config';
-import { Resend } from 'resend';
 
 const connectionString = process.env.DATABASE_URL;
 if (!connectionString) throw new Error('DATABASE_URL is not defined');
 
 const adapter = new PrismaNeon({ connectionString });
 const prisma = new PrismaClient({ adapter });
-const resend = new Resend(process.env.RESEND_API_KEY);
 
 const app = express();
 app.use(cors());
@@ -61,10 +59,4 @@ app.get('/api/experiences', async (req, res) => {
   }
 });
 
-// Route pour envoyer un email depuis le formulaire de contact
-
-
-const PORT = process.env.PORT || 3001;
-app.listen(PORT, () => {
-  console.log(`🚀 Serveur API démarré sur http://localhost:${PORT}`);
-});
+export default app;
